@@ -1,0 +1,9 @@
+#spring.data.cassandra.cluster-name= # Name of the Cassandra cluster.
+
+cassandra.contact-points: 127.0.0.1 # Cluster node addresses.
+cassandra.keyspace-name: lovebnp # Keyspace name to use.
+cassandra.port: 9042 # Port of the Cassandra server.
+cassandra.repositories.type: auto # Type of Cassandra repositories to enable.
+cassandra.ssl: false
+server:
+  port: 9000 # Enable SSL support.spring.port
